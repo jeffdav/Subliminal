@@ -46,6 +46,13 @@
 		6256A2D619476E1F00C6507F /* SLStaticTextTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6256A2D319476E1F00C6507F /* SLStaticTextTestViewController.xib */; };
 		62E7A633193EF84C00CB11AB /* SLStaticText.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E7A631193EF84C00CB11AB /* SLStaticText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E7A634193EF84C00CB11AB /* SLStaticText.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E7A632193EF84C00CB11AB /* SLStaticText.m */; };
+		6A60A0BC194A2543005C98F0 /* SLCollectionViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A60A0BB194A2543005C98F0 /* SLCollectionViewTestViewController.xib */; };
+		6A60A0BE194A3220005C98F0 /* SLCollectionViewTestHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A60A0BD194A3220005C98F0 /* SLCollectionViewTestHeaderView.xib */; };
+		6A60A0C0194A32CA005C98F0 /* SLCollectionViewTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A60A0BF194A32CA005C98F0 /* SLCollectionViewTestCell.xib */; };
+		6A60A0C3194A3336005C98F0 /* SLCollectionViewTestHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60A0C2194A3336005C98F0 /* SLCollectionViewTestHeaderView.m */; };
+		6A60A0C6194A337C005C98F0 /* SLCollectionViewTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60A0C5194A337C005C98F0 /* SLCollectionViewTestCell.m */; };
+		6A60A0C7194A3956005C98F0 /* SLCollectionViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60A0B8194A1DB4005C98F0 /* SLCollectionViewTest.m */; };
+		6A60A0C8194A396E005C98F0 /* SLCollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60A0B419492606005C98F0 /* SLCollectionViewTestViewController.m */; };
 		CA75E78216697A1200D57E92 /* SLDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = CA75E78016697A1200D57E92 /* SLDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA75E78516697C0000D57E92 /* SLDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = CA75E78116697A1200D57E92 /* SLDevice.m */; };
 		CAC388051641CD7500F995F9 /* SLStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC388031641CD7500F995F9 /* SLStringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -284,6 +291,15 @@
 		6256A2D319476E1F00C6507F /* SLStaticTextTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLStaticTextTestViewController.xib; sourceTree = "<group>"; };
 		62E7A631193EF84C00CB11AB /* SLStaticText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLStaticText.h; sourceTree = "<group>"; };
 		62E7A632193EF84C00CB11AB /* SLStaticText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLStaticText.m; sourceTree = "<group>"; };
+		6A60A0B419492606005C98F0 /* SLCollectionViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCollectionViewTestViewController.m; sourceTree = "<group>"; };
+		6A60A0B8194A1DB4005C98F0 /* SLCollectionViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCollectionViewTest.m; sourceTree = "<group>"; };
+		6A60A0BB194A2543005C98F0 /* SLCollectionViewTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCollectionViewTestViewController.xib; sourceTree = "<group>"; };
+		6A60A0BD194A3220005C98F0 /* SLCollectionViewTestHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCollectionViewTestHeaderView.xib; sourceTree = "<group>"; };
+		6A60A0BF194A32CA005C98F0 /* SLCollectionViewTestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCollectionViewTestCell.xib; sourceTree = "<group>"; };
+		6A60A0C1194A3336005C98F0 /* SLCollectionViewTestHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCollectionViewTestHeaderView.h; sourceTree = "<group>"; };
+		6A60A0C2194A3336005C98F0 /* SLCollectionViewTestHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCollectionViewTestHeaderView.m; sourceTree = "<group>"; };
+		6A60A0C4194A337C005C98F0 /* SLCollectionViewTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCollectionViewTestCell.h; sourceTree = "<group>"; };
+		6A60A0C5194A337C005C98F0 /* SLCollectionViewTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCollectionViewTestCell.m; sourceTree = "<group>"; };
 		CA75E78016697A1200D57E92 /* SLDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDevice.h; sourceTree = "<group>"; };
 		CA75E78116697A1200D57E92 /* SLDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDevice.m; sourceTree = "<group>"; };
 		CAC388031641CD7500F995F9 /* SLStringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLStringUtilities.h; sourceTree = "<group>"; };
@@ -536,6 +552,22 @@
 				6256A2D319476E1F00C6507F /* SLStaticTextTestViewController.xib */,
 			);
 			name = "SLStaticText Tests";
+			sourceTree = "<group>";
+		};
+		6A60A0AF19492566005C98F0 /* SLCollectionView Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A60A0B8194A1DB4005C98F0 /* SLCollectionViewTest.m */,
+				6A60A0C4194A337C005C98F0 /* SLCollectionViewTestCell.h */,
+				6A60A0C5194A337C005C98F0 /* SLCollectionViewTestCell.m */,
+				6A60A0BF194A32CA005C98F0 /* SLCollectionViewTestCell.xib */,
+				6A60A0C1194A3336005C98F0 /* SLCollectionViewTestHeaderView.h */,
+				6A60A0C2194A3336005C98F0 /* SLCollectionViewTestHeaderView.m */,
+				6A60A0BD194A3220005C98F0 /* SLCollectionViewTestHeaderView.xib */,
+				6A60A0B419492606005C98F0 /* SLCollectionViewTestViewController.m */,
+				6A60A0BB194A2543005C98F0 /* SLCollectionViewTestViewController.xib */,
+			);
+			name = "SLCollectionView Tests";
 			sourceTree = "<group>";
 		};
 		CAC388011641CD4800F995F9 /* Internal */ = {
@@ -918,6 +950,7 @@
 		F0AC80BE16BB542400C5D5C0 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				6A60A0AF19492566005C98F0 /* SLCollectionView Tests */,
 				DB2627D817B96704009DA3A6 /* SLStatusBar Tests */,
 				50A59BD317848CEE002A863A /* SLGeometry Tests */,
 				F07DA31F16E439B7004C2282 /* SLAlert Tests */,
@@ -1224,11 +1257,14 @@
 				F0AC80A616BB299500C5D5C0 /* Default.png in Resources */,
 				F0AC80A816BB299500C5D5C0 /* Default@2x.png in Resources */,
 				F0AC80AA16BB299500C5D5C0 /* Default-568h@2x.png in Resources */,
+				6A60A0BC194A2543005C98F0 /* SLCollectionViewTestViewController.xib in Resources */,
 				F01B2B6F16D2C55900DBA391 /* SLElementMatchingTestViewController.xib in Resources */,
 				F0CEA00416D60EAD008A3B4A /* SLDeviceTestViewController.xib in Resources */,
 				068D3E4D16DE9008004E7E28 /* SLTableViewChildElementMatchingTestViewController.xib in Resources */,
 				0696BA5A16E013D600DD70CF /* SLElementDraggingTestViewController.xib in Resources */,
+				6A60A0BE194A3220005C98F0 /* SLCollectionViewTestHeaderView.xib in Resources */,
 				F01EBC9E1701429400FF6A7C /* SLWebTextField.html in Resources */,
+				6A60A0C0194A32CA005C98F0 /* SLCollectionViewTestCell.xib in Resources */,
 				F077D70F16D9D77900908FF5 /* SLElementVisibilityTestCovered.xib in Resources */,
 				6256A2D619476E1F00C6507F /* SLStaticTextTestViewController.xib in Resources */,
 				F090AE7016D9E01D000F0B6F /* SLElementVisibilityTestHidden.xib in Resources */,
@@ -1362,8 +1398,10 @@
 				F01B2B6D16D2C55900DBA391 /* SLElementMatchingTest.m in Sources */,
 				F01B2B6E16D2C55900DBA391 /* SLElementMatchingTestViewController.m in Sources */,
 				F0CEA00216D60EAD008A3B4A /* SLDeviceTest.m in Sources */,
+				6A60A0C3194A3336005C98F0 /* SLCollectionViewTestHeaderView.m in Sources */,
 				F0CEA00316D60EAD008A3B4A /* SLDeviceTestViewController.m in Sources */,
 				0696BA5816E013D600DD70CF /* SLElementDraggingTest.m in Sources */,
+				6A60A0C6194A337C005C98F0 /* SLCollectionViewTestCell.m in Sources */,
 				6256A2D419476E1F00C6507F /* SLStaticTextTest.m in Sources */,
 				0696BA5916E013D600DD70CF /* SLElementDraggingTestViewController.m in Sources */,
 				F0AE4C8D16F7F92D00B2BB2B /* SLElementStateTest.m in Sources */,
@@ -1378,6 +1416,7 @@
 				F0B868EC1740A146008BDA80 /* SLTerminalTestViewController.m in Sources */,
 				F0CC759A173B097800E8F94A /* SLElementTapTest.m in Sources */,
 				F0CC759B173B097800E8F94A /* SLElementTapTestViewController.m in Sources */,
+				6A60A0C8194A396E005C98F0 /* SLCollectionViewTestViewController.m in Sources */,
 				F089F99417458BA300DF1F25 /* SLWindowTest.m in Sources */,
 				F089F99517458BA300DF1F25 /* SLWindowTestViewController.m in Sources */,
 				F089F9E21745FB7E00DF1F25 /* SLKeyboardTest.m in Sources */,
@@ -1392,6 +1431,7 @@
 				F0A3F63D17A7172E007529C3 /* SLTextViewTest.m in Sources */,
 				F0A3F63E17A7172E007529C3 /* SLTextViewTestViewController.m in Sources */,
 				DB2627DE17B96727009DA3A6 /* SLStatusBarTest.m in Sources */,
+				6A60A0C7194A3956005C98F0 /* SLCollectionViewTest.m in Sources */,
 				F078C0491808BF24000767D2 /* SLWebViewTest.m in Sources */,
 				DB2627DF17B96727009DA3A6 /* SLStatusBarTestViewController.m in Sources */,
 				50A59BD81784908D002A863A /* SLGeometryTest.m in Sources */,
@@ -1648,6 +1688,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
 				INFOPLIST_FILE = "Integration Tests/$(TARGET_NAME)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Subliminal (Integration Tests)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -1673,6 +1714,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
 				INFOPLIST_FILE = "Integration Tests/$(TARGET_NAME)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "Subliminal (Integration Tests)";
 				TARGETED_DEVICE_FAMILY = "1,2";
